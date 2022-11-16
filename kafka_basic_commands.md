@@ -35,7 +35,7 @@
 ## After installation:
 	fish_add_path <full_path_to_confluent_folder>/bin/
 In my case, the folder is in Home directory, so
-    fish_add_path ~/confluent-7.2.2/bin/
+    	fish_add_path ~/confluent-7.2.2/bin/
     
 ## Start Kafka
 ### Start the zookeeper server
@@ -80,14 +80,12 @@ Server can be started only after providing the location of zookeeper and server 
 #### 5. Get detailed information (describe) of a Topic
        kafka-topics --bootstrap-server localhost:9092 --describe --topic name
 
-	(Topic name, TopicId, PartitionCount, ReplicationFactor,
-	 for each partition, leader broker id, replica broker id, etc)
+(Topic name, TopicId, PartitionCount, ReplicationFactor, for each partition, leader broker id, replica broker id, etc)
 
 #### 6. Specify replication factor while creating topic
        kafka-topics --bootstrap-server localhost:9092 --create --topic name --partitions number --replication-factor no
 
-(For this to work, we should have more brokers than the replication-factor\
- maximum replication-factor = n – 1   (n = no. of brokers)
+(For this to work, we should have more brokers than the replication-factor\ maximum replication-factor = n – 1   (n = no. of brokers)
 
 
 ### Producer and Consumer
