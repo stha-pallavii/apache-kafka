@@ -1,4 +1,4 @@
-# Kafka Final Project
+# Kafka Project
 [Project pipeline diagram](https://github.com/stha-pallavii/apache-kafka/blob/ccbc3d464b10fa8ec572aa6c7c1dcad7e3d37f63/kafka_project/kafka_project_pipeline_diagram)
 
 ## Steps:
