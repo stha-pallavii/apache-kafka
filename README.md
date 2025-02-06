@@ -5,7 +5,7 @@ This repository contains the codes that I used while learning Apache Kafka.
 **`Project pipeline diagram`** (https://github.com/stha-pallavii/apache-kafka/blob/ccbc3d464b10fa8ec572aa6c7c1dcad7e3d37f63/kafka_project/kafka_project_pipeline_diagram)
 
 ## Steps:
-1. Find [API](https://api.tvmaze.com/shows)
+1. Find an external [API](https://api.tvmaze.com/shows)
 
 2. Create kafka [producer](https://github.com/stha-pallavii/apache-kafka/blob/kafka_project/kafka_project/api_producer.py) and produce data from the API into kafka topic
 
