@@ -1,8 +1,8 @@
-### Apache Kafka
+# Apache Kafka
 This repository contains the codes that I used while learning Apache Kafka.
 
-View the [Kafka Project] (https://github.com/stha-pallavii/apache-kafka/tree/kafka_project/kafka_project) branch to see the project I built using Apache Kafka
-[Project pipeline diagram](https://github.com/stha-pallavii/apache-kafka/blob/ccbc3d464b10fa8ec572aa6c7c1dcad7e3d37f63/kafka_project/kafka_project_pipeline_diagram)
+#### View the [Kafka Project] (https://github.com/stha-pallavii/apache-kafka/tree/kafka_project/kafka_project) branch to see the project I built using Apache Kafka
+** [Project pipeline diagram] ** (https://github.com/stha-pallavii/apache-kafka/blob/ccbc3d464b10fa8ec572aa6c7c1dcad7e3d37f63/kafka_project/kafka_project_pipeline_diagram)
 
 ## Steps:
 1. Find [API](https://api.tvmaze.com/shows)
